@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+
+
+
+---
+layout: default
+---
 <!DOCTYPE html>
 <html><head>
   <style>
