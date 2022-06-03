@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html><head>
+  <style>
+body {
+  background-color: #f0f0f0 !important;
+}
+
+.contact-form-wrapper {
+  padding: 100px 0;
+}
+
+.contact-form {
+  padding: 30px 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  max-width: 400px;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form .form-input,
+.form-text-area {
+  background-color: #f0f4f5;
+  height: 50px;
+  padding-left: 16px;
+}
+
+.contact-form .form-text-area {
+  background-color: #f0f4f5;
+  height: auto;
+  padding-left: 16px;
+}
+
+.contact-form .form-control::placeholder {
+  color: #aeb4b9;
+  font-weight: 500;
+  opacity: 1;
+}
+
+.contact-form .form-control:-ms-input-placeholder {
+  color: #aeb4b9;
+  font-weight: 500;
+}
+
+.contact-form .form-control::-ms-input-placeholder {
+  color: #aeb4b9;
+  font-weight: 500;
+}
+
+.contact-form .form-control:focus {
+  border-color: #6a479e;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #6a479e;
+}
+
+.contact-form .title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contact-form .description {
+  color: #aeb4b9;
+  font-size: 14px;
+  text-align: center;
+}
+
+.contact-form .submit-button-wrapper {
+  text-align: center;
+}
+
+.contact-form .submit-button-wrapper input {
+  border: none;
+  border-radius: 4px;
+  background-color: #6a479e;
+  color: white;
+  padding: 10px 60px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.contact-form .submit-button-wrapper input:hover {
+  background-color: #6a479e;
+}
+
+.abs{
+  padding: 0.75rem 0.75rem !important;
+
+}
+
+  </style>
+  <title>Nicholas Murphy Portfolio Site</title>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="./gallery/reset.css">
+  <link rel="stylesheet" href="./gallery/circular/stylesheet.css">
+  <link rel="stylesheet" href="./gallery/entypo/entypo.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js"></script>
+  <!-- <script src="./gallery/orbit-controls.js"></script> -->
+  <!-- <script src="./gallery/GlslCanvas.js"></script> -->
+  <!-- <script src="./gallery/ThreeCSG.js"></script> -->
+  <script src="./gallery/rison.js"></script>
+
+  <script src="./dist/vanta.fog.min.js"></script>
+  <script src="./dist/vanta.waves.min.js"></script>
+  <script src="./dist/vanta.cells.min.js"></script>
+  <script src="./dist/vanta.clouds.min.js"></script>
+  <script src="./dist/vanta.clouds2.min.js"></script>
+  <script src="./dist/vanta.birds.min.js"></script>
+  <script src="./dist/vanta.net.min.js"></script>
+  <script src="./dist/vanta.globe.min.js"></script>
+  <script src="./dist/vanta.trunk.min.js"></script>
+  <script src="./dist/vanta.topology.min.js"></script>
+  <script src="./dist/vanta.dots.min.js"></script>
+  <script src="./dist/vanta.rings.min.js"></script>
+  <script src="./dist/vanta.halo.min.js"></script>
+
+
+  <script src="./gallery/gallery.min.js"></script>
+  <link rel="stylesheet" href="./gallery/styles.css">
+
+
+</head><body>
+  <section class="wm">
+    <div class="top-left">
+      <a href="https://github.com/nick801Codes">
+        <i class="ent-github"> </i>
+        My GitHub
+      </a>
+    </div>
+    <div class="bottom-left">
+      <span id="fps"></span>
+    </div>
+    <div class="container inner">
+      <div class="eight columns">
+        <h1> Hi, I'm Nick Murphy </h1>
+        <h3> A full stack web developer  </h3>
+        <div style="padding-right: 75%">        
+          <a class="strikingly abs" href="//www.strikingly.com/?ref=vanta" style="color: white; text-decoration: none;">
+          <div class="label"> Learn More </div>
+        </a>
+       </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="container clearfix">
+      <div class="sixteen columns">
+        <h2> My Work </h2>
+      </div>
+      <div class="four columns half-fixed item">
+        <div class="label"> Keto Chow </div>
+      </div>
+      <div class="four columns half-fixed item">
+        <div class="label"> James Kay Photography </div>
+      </div>
+      <div class="four columns half-fixed item">
+        <div class="label"> High Profile Windows </div>
+      </div>
+      <div class="four columns half-fixed item">
+        <div class="label"> Mythologie Candles </div>
+      </div>
+    </div>
+  </section>
+  <section class="top-follow">
+    <div class="container clearfix">
+      <div class="sixteen columns">
+        <hr>
+      </div>
+      <div class="eight columns">
+        <h2> Technical Skills </h2>
+        <ul class="features">
+          <li> <strong> Languages/Scripts: </strong>  HTML, CSS, JavaScript, PHP, Python, Java, Assembly, Flutter </li>
+          <li> <strong> Frameworks/Libraries: </strong> React, Sass, Scss, NodeJs, Tailwind CSS, Bootstrap, jQuery, npm, Liquid, git, gulp, Ajax, VueJS</li>
+          <li> <strong> Platforms/Servers: </strong> WooCommerce, Github, Bitbucket, phpmyadmin </li>
+          <li> <strong> Databases: </strong> MySQL, MongoDB, Firebase </li>
+          <li> <strong> Misc: </strong> WCAG, Accessibility compliance, SEO, Growth Marketing, Email Strategy, UI/UX Design </li>
+        </ul>
+      </div>
+      <div class="eight columns">
+        <h2> Design Skills </h2>
+        <ul class="features">
+          <li> Responsive mobile-first Design </li>
+          <li> Adobe Creative Suite Experience </li>
+          <li> Accessible Design </li>
+        </ul>
+      </div>
+      <div class="sixteen columns">
+        <hr>
+      </div>
+      <div class="four columns">
+        <a class="strikingly abs" href="//www.strikingly.com/?ref=vanta" style="color: white; text-decoration: none;">
+          <div class="label"> Contact Me </div>
+        </a>
+      </div>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScmX9l5-IjMTjzbubWfnKONEc3GV0qAdz0hRqNm8sd2bRgahw/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+    </div>
+  </section>
+
+  <div class="preload-images">
+    <img src="./gallery/noise.png" style="height: 1px; opacity: 0;">
+  </div>
+</body></html>
+
+
